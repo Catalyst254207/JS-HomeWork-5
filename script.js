@@ -104,3 +104,17 @@
 
 //     let thereIsPhoto = products.filter(products => products.photos !== 0);
 //     console.log(thereIsPhoto);
+
+
+// Задание 5
+// Дано 2 массива 
+// Вам необходимо объединить 2 этих массива, чтобы значения первого массива были к console.log(object);чами, а значения второго массива — значениями.
+
+const en = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const ru = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
+console.log(en);
+console.log(ru);
+const object = {};
+for (let i = 0; i < en.length; i++) {
+    object[en[i]] = ru[i];  
+} console.log(object);
